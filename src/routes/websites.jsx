@@ -6,7 +6,7 @@ export default function Websites() {
 
     let data = {
         header: "Website Creation",
-        subheader: "Created Website for Friends Business",
+        subheader: "Created Website for Friend's Business",
         links: [{
         }
     ],
@@ -19,11 +19,19 @@ export default function Websites() {
             I will update this page once it goes live to showcase it. Here are a couple of screenshots of the website.</p>),
         tags: [{
             id: 1,
-            text: "Python"
+            text: "HTML"
         },
         {
             id: 2,
-            text: "Current Position"
+            text: "JavaScript"
+        },
+        {
+            id: 3,
+            text: "CSS"
+        },
+        {
+            id: 4,
+            text: "React"
         }
     ],
         buttons: [

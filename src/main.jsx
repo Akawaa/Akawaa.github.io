@@ -10,6 +10,7 @@ import Queenproblem from './routes/queenproblem.jsx';
 import Esports from './routes/esports.jsx';
 import SnakeAI from './routes/snakeai.jsx';
 import Websites from './routes/websites.jsx';
+import Kickochet from './routes/kickochet.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
 
@@ -48,8 +49,7 @@ const router = createBrowserRouter([
         path: "/Esports",
         element: <Esports/>,
         errorElement: <ErrorPage />
-      }
-      ,
+      },
       {
         path: "/SnakeAI",
         element: <SnakeAI />,
@@ -58,6 +58,11 @@ const router = createBrowserRouter([
       {
         path: "/Websites",
         element: <Websites />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Kickochet",
+        element: <Kickochet />,
         errorElement: <ErrorPage />
       }
     ]

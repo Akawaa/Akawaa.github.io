@@ -44,7 +44,6 @@ export default function Home() {
                     <li>WebGL</li>
                     <li>Prolog</li>
                     <li>Blender</li>
-                    <li>Pytorch</li>
                 </ul>
                 </div>
             </div>
@@ -95,11 +94,29 @@ export default function Home() {
                     </div>
                     </Link>
                 </div>
-                
 
-                
                 <div className='project'>
+                <img src ="youhat.png" alt="icon" className="project-icon"></img>
+                <Link to = "/kickochet">
+                <div className="project-info">
+                        <h2>
+                            Kick-ochet
+                        </h2>
+                        <p>
+                            A Browser Shooter Game
+                        </p>
+                        <ul className="project-tags">
+                            <li>Unity</li>
+                            <li>C#</li>
+                            <li>Teamwork</li>
+                            <li>Blender</li>
+                            <li>Live Demo</li>
+                        </ul>
+                    </div>
+                </Link>
+                </div>
                 
+                <div className='project'>        
                 <img src ="codingrat.png" alt="icon" className="project-icon"></img>
                 <Link to = "/codingrat">
                 <div className="project-info">
@@ -177,7 +194,7 @@ export default function Home() {
                             Website Creation
                         </h2>
                         <p>
-                            Created Website for Friends Business
+                            Created Website for Friend's Business
                         </p>
                         <ul className="project-tags">
                             <li>HTML</li>

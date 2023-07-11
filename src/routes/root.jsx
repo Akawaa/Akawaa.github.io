@@ -8,7 +8,7 @@ function Root() {
         <main>
             <Outlet />
             <footer>
-                <p>This website was created by me using HTML, React, CSS, and JavaScript.</p>
+                <p>This website was created by me using React, CSS, and JavaScript.</p>
             </footer>
         </main>
     </div>

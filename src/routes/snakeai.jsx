@@ -36,7 +36,23 @@ export default function SnakeAI() {
         },
         {
             id: 2,
-            text: "Current Position"
+            text: "PyTorch"
+        },
+        {
+            id: 3,
+            text: "Reinforcement Learning"
+        },
+        {
+            id: 4,
+            text: "Machine Learning"
+        },
+        {
+            id: 5,
+            text: "Video Display"
+        },
+        {
+            id: 6,
+            text: "Full Research Report"
         }
     ],
         buttons: [

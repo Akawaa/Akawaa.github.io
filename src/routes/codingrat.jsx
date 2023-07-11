@@ -39,11 +39,23 @@ export default function Softwaredev() {
         ),
         tags: [{
             id: 1,
-            text: "Python"
+            text: "Unity"
         },
         {
             id: 2,
-            text: "Current Position"
+            text: "C#"
+        },
+        {
+            id: 3,
+            text: "Blender"
+        },
+        {
+            id: 4,
+            text: "Serious Game"
+        },
+        {
+            id: 5,
+            text: "Full Research Report"
         }
     ],
         buttons: [
