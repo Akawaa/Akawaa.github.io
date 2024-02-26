@@ -66,7 +66,7 @@ export default function Home() {
                         </p>
                         <ul className="project-tags">
                             <li>Python</li>
-                            <li>Current Position</li>
+                            <li>Software Development</li>
                             
                         </ul>
                     </div>
@@ -159,6 +159,7 @@ export default function Home() {
                     </div>
                     </Link>
                 </div>
+
                 
 
                 
@@ -194,7 +195,7 @@ export default function Home() {
                             Website Creation
                         </h2>
                         <p>
-                            Created Website for Friend's Business
+                            Created Websites for Businesses
                         </p>
                         <ul className="project-tags">
                             <li>HTML</li>

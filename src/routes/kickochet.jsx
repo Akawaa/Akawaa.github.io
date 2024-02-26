@@ -56,7 +56,7 @@ export default function Kickochet() {
   ],                         
         buttons: [
 
-        ],demo: <iframe frameborder="0" src="https://itch.io/embed-upload/8277511?color=ffda8b" allowfullscreen="" width="960" height="560"><a href="https://frostiae.itch.io/kickochet">Play Kickochet on itch.io</a></iframe>,
+        ],demo: <iframe frameborder="0" src="https://itch.io/embed-upload/8277511?color=ffda8b" className="kickochet-demo" allowfullscreen="" width="960" height="560"><a href="https://frostiae.itch.io/kickochet">Play Kickochet on itch.io</a></iframe>,
         headerimages: [{
             id: 1,
             src: "kickochet.png",

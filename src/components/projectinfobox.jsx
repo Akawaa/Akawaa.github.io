@@ -88,6 +88,8 @@ export default function ProjectInfobox(props) {
                 }
                 </div>
 
+                
+
                 <div className="project-video">
                 {props.data.video != undefined && <video src= {props.data.video} className="project-video-snake" controls >Your browser does not support the video tag.</video>
                 }
@@ -95,6 +97,11 @@ export default function ProjectInfobox(props) {
 
                 <div className="project-demo">
                 {props.data.demo != undefined && props.data.demo
+                }
+                </div>
+
+                <div className="project-gif">
+                {props.data.gif != undefined && <img src= {props.data.gif} className="queengif"></img>
                 }
                 </div>
                 

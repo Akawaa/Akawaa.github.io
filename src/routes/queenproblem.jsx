@@ -43,7 +43,10 @@ export default function Queenproblem() {
     ],
         buttons: [
 
-        ],
+        ], 
+        
+        gif: "chessqueen.gif",
+
         demo: <iframe frameborder="0" src="https://itch.io/embed/2151610" width="552" height="167"><a href="https://akawaa.itch.io/n-queens-problem">N Queens Problem by Akawaa</a></iframe>,
         headerimages: [{
             id: 1,
@@ -55,7 +58,8 @@ export default function Queenproblem() {
             src: "",
             alt: ""
         }],
-        websiteimages: []
+        websiteimages: [],
+       
     }
 
     return (

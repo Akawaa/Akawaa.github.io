@@ -1,3 +1,4 @@
+/* MOBILE */
 
 .header {
   display: flex;
@@ -7,6 +8,7 @@
   justify-content: center;
   border-bottom: 1px solid #2D4659;
 }
+
 
 .info{
   display: flex;
@@ -18,16 +20,6 @@ main {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  
-}
-
-
-
-@media only screen and (min-width: 1366px){
-  main{
-    width: 60%;
-    
-  }
 }
 
 .projects{
@@ -37,6 +29,7 @@ main {
   justify-content: space-between;
   align-items: stretch;
 }
+
 
 
 .project{
@@ -54,14 +47,6 @@ main {
   text-align: left;
   transition: .3s;
   animation: fadeUp 1s 1;
-}
-
-@media only screen and (min-width: 1366px){
-
-  .project {
-    width: 40%;
-    margin: 20px;
-  }
 }
 .App {
   text-align: center;
@@ -141,6 +126,11 @@ main {
   text-align: left;
 }
 
+.info h1{
+  text-align: center;
+}
+
+
 .contact-image{
   width: 64px;
   height: 64px;
@@ -163,30 +153,13 @@ main {
   animation: fadeUp 1s 1;
 }
 
-@media only screen and (min-width: 1366px){
-  .App-header {
-      flex-direction: row;
-    }
-  }
-
-
 .personal-img{
-
-  width: 512px;
-  height: 512px;
-}
-
-.skills ul{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin-top: 15px;
+  border-radius: 20px;
+  margin: 20px;
 }
 
 .skills{
-  width: 280px;
-  position: relative;
+  display: none;
 }
 
 .project-header-images{
@@ -205,11 +178,6 @@ main {
   list-style: none;
 }
 
-.personal-img{
-  border-radius: 20px;
-  margin: 20px;
-}
-
 .info{
   padding: 20px;
 }
@@ -225,10 +193,13 @@ main {
 }
 
 .body-project-image{
-  width: 500px;
+  width: 100%;
   border-radius: 10px;
   margin: 2px;
   image-rendering: crisp-edges;
+  border-radius: 20px;
+  margin: 20px;
+
 }
 
 .project-description{
@@ -255,7 +226,7 @@ main {
 
 .projectbox-info{
   text-align: left;
-  width: 1024px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -271,6 +242,10 @@ main {
   font-weight: bold;
 }
 
+.tags{
+  display: none;
+}
+
 .tags li{
   margin-right: 0.2rem;
   margin-bottom: 0.2rem;
@@ -283,6 +258,87 @@ main {
 }
 
 .website-project-image{
-  width:800px;
+  width:100%;
   padding: 10px;
+}
+
+.project-subheader{
+  display: none;
+}
+
+.kickochet-demo{
+  display: none;
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px){
+  main{
+    width: 75%;
+  }
+  .personal-img{
+    width: 65%;
+    align-self: center;
+  }
+
+  .project-image{
+    width: 50%;
+  }
+
+  .tags{
+    display: flex;
+  }
+}
+
+/* kickochetdemo display */
+@media only screen and (min-width: 1150px){
+  .kickochet-demo{
+    display: inline;
+  }
+}
+
+/* PC */
+@media only screen and (min-width: 1366px){
+  main{
+    width: 60%;
+  }
+
+  .App-header {
+    flex-direction: row;
+  }
+
+  .personal-img{
+    width: 35%;
+  }
+
+  .skills ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .skills{
+    width: 340px;
+    position: relative;
+    display: flex;
+  }
+
+  .project {
+    width: 40%;
+    margin: 20px;
+  }
+
+  .project-subheader{
+    display: block;
+  }
+
+  .project-image{
+    width: 20%;
+  }
+
+  .body-project-image{
+    width: 40%;
+  }
 }

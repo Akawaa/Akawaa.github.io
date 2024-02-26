@@ -11,9 +11,7 @@ export default function Softwaredev() {
         }
     ],
         text: (
-        <p>I am currently serving as a software development intern at Harrisburg University. This internship commenced in early May and is scheduled to 
-            conclude at the end of August. As part of my role, I collaborate with a teammate to develop software that automates the measurement of bacteria cells. 
-            This website serves as a platform to showcase my work and experiences during this internship.</p>
+        <p>Through the summer of 2023, I worked as a software developer intern at Harrisburg University. This internship commenced in early May and concluded at the end of August. During the internship, I worked hard to create clean and deliverable code, and I worked in an agile scrum environment where we held meetings every week. I faced and solved challenging and exciting coding problems to accomplish my tasks every week. Below is an image of how the software looked after my internship was over. The 'output' button generates a CSV file of all the measurements in nanometers. I enjoyed this experience very much and believe it would greatly help me in my future field.</p>
         ),
         tags: [{
             id: 1,
@@ -21,7 +19,7 @@ export default function Softwaredev() {
         },
         {
             id: 2,
-            text: "Current Position"
+            text: "Software Development"
         },
     ],
 
@@ -35,8 +33,8 @@ export default function Softwaredev() {
         }],
         bodyimages: [{
             id: 1,
-            src: "",
-            alt: ""
+            src: "bacsoftware.png",
+            alt: "bacteriasoftware"
         }],
         websiteimages: []
     }
